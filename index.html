@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Marmeto</title>
+    <!-- Link to external CSS file -->
+    <link href="style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">Marmeto</div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-user"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </div>
+    <div class="banner">
+        <h1>Cart</h1>
+        <p>Home > Cart</p>
+    </div>
+    <div class="cart-container">
+        <div class="cart-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://storage.googleapis.com/a1aa/image/fRJQk4NOZCXYYytSJf0twhex3hR6PI5UdC4PY8ezsM54fGIdC.jpg" alt="Asgaard sofa" width="60" height="60"/>
+                                     Asgaard sofa
+                        </td>
+                        <td>Rs. 250,000.00</td>
+                        <td><input type="number" value="1" min="1" style="width: 50px;"/></td>
+                        <td>Rs. 250,000.00</td>
+                        <td><i class="fas fa-trash-alt" style="color: #d4a373;"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="cart-totals">
+            <h2>Cart Totals</h2>
+            <div class="totals">
+                <span>Subtotal</span>
+                <span>Rs. 250,000.00</span>
+            </div>
+            <div class="totals">
+                <span>Total</span>
+                <span class="total">Rs. 250,000.00</span>
+            </div>
+            <button>Check Out</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="feature">
+            <i class="fas fa-trophy"></i>
+            <div>
+                <span>High Quality</span>
+                <p>crafted from top materials</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <div>
+                <span>Warranty Protection</span>
+                <p>Over 2 years</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-shipping-fast"></i>
+            <div>
+                <span>Free Shipping</span>
+                <p>Order over 150 $</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="fas fa-headset"></i>
+            <div>
+                <span>24 / 7 Support</span>
+                <p>Dedicated support</p>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
